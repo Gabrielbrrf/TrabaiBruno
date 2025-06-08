@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="../integracao.php" method="POST">
+    <input type="text" name="nome" placeholder="Nome" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="password" name="senha" placeholder="Senha" required>
+    <input type="hidden" name="tipo" value="passageiro">
+    <button type="submit">Cadastrar Passageiro</button>
+</form>
+
 </body>
 </html>

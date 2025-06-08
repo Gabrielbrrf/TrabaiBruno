@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="../integracao.php" method="POST">
+    <input type="text" name="modelo" placeholder="Modelo" required>
+    <input type="text" name="placa" placeholder="Placa" required>
+    <input type="number" name="motorista_id" placeholder="ID do Motorista" required>
+    <input type="hidden" name="tipo" value="veiculo">
+    <button type="submit">Cadastrar Veículo</button>
+</form>
+
 </body>
 </html>

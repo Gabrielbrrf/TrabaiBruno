@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <p>oie</p>
+    <form action="../integracao.php" method="POST">
+    <input type="text" name="origem" placeholder="Origem" required>
+    <input type="text" name="destino" placeholder="Destino" required>
+    <input type="number" name="passageiro_id" placeholder="ID do Passageiro" required>
+    <input type="number" name="motorista_id" placeholder="ID do Motorista" required>
+    <input type="hidden" name="tipo" value="corrida">
+    <button type="submit">Solicitar Corrida</button>
+</form>
+
 </body>
 </html>
